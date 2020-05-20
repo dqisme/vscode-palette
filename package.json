@@ -1,0 +1,25 @@
+{
+    "name": "palette-support",
+    "displayName": "Palette Support",
+    "description": "Language support for *.palette",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "palette",
+            "aliases": ["Palette", "palette"],
+            "extensions": [".palette"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "palette",
+            "scopeName": "",
+            "path": "./syntaxes/palette.tmLanguage.json"
+        }]
+    }
+}
