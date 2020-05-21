@@ -1,4 +1,4 @@
-# palette-support README
+# Palette Support for Visual Studio Code
 
 `*.palette` file support to [Visual Studio Code](https://code.visualstudio.com/) for showing colour decorator in front of all the colour text in editor.
 
