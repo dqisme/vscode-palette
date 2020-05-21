@@ -3,30 +3,14 @@
 	"name": "Palette",
 	"patterns": [
 		{
-			"include": "#keywords"
-		},
-		{
-			"include": "#strings"
+			"include": "#colour"
 		}
 	],
 	"repository": {
-		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.palette",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
-		},
-		"strings": {
-			"name": "string.quoted.double.palette",
-			"begin": "\"",
-			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.palette",
-					"match": "\\\\."
-				}
-			]
+		"colour": {
+			"name": "colour.palette",
+			"match": "#[0-9a-fA-F]{6}"
 		}
 	},
-	"scopeName": ""
+	"scopeName": "text.palette"
 }
