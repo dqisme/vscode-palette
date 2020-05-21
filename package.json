@@ -2,6 +2,10 @@
     "name": "palette-support",
     "displayName": "Palette Support",
     "description": "Language support for *.palette",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dqisme/vscode-palette"
+    },
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.45.0"
