@@ -6,7 +6,8 @@
         "type": "git",
         "url": "https://github.com/dqisme/vscode-palette"
     },
-    "version": "0.0.1",
+    "version": "1.0.0",
+    "publisher": "dqisme",
     "engines": {
         "vscode": "^1.45.0"
     },
@@ -14,6 +15,7 @@
         "Programming Languages"
     ],
     "main": "./extension.js",
+    "icon": "./resource/logo.png",
     "activationEvents": ["*"],
     "contributes": {
         "languages": [{
